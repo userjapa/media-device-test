@@ -1,0 +1,14 @@
+{
+  "name": "camera-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "$(npm bin)/lr-http-server"
+  },
+  "author": "userjapa",
+  "license": "ISC",
+  "dependencies": {
+    "lr-http-server": "^0.1.5"
+  }
+}

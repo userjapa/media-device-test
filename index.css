@@ -1,0 +1,40 @@
+.dad {
+  border: 2px solid red;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.son {
+  border: 2px solid blue;
+  align-self: center;
+  flex: 1;
+  padding: 1em;
+}
+
+.button {
+  align-self: center;
+  flex-basis: 1200px;
+  flex-grow: 1;
+}
+
+.video, .canvas {
+  flex-basis: 400px;
+  flex-grow: 1;
+}
+
+#video, #canvas {
+  height: 100%;
+  width: 100%;
+}
+
+#snap {
+  padding: 15px 40px;
+  font-size: 25px;
+  color: green;
+  background: #fff;
+  border: .1em solid green;
+  border-radius: 10px;
+}
